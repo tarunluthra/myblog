@@ -1,0 +1,25 @@
+baseURL = "https://tarunluthra.com/"
+languageCode = "en-us"
+title = "Climate Risk Geoscope"
+theme = "graysx"
+
+[params]
+  author = "Tarun Luthra"
+  description = "ClimateRisk: Navigating the Intersection of Climate Science and Data Innovation"
+  github = "https://github.com/tarunluthra"
+  linkedin = "https://www.linkedin.com/in/luthrat"
+  # Add other social media links as needed
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
